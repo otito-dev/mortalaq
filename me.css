@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  grid-gap: 10px;                        /* gap between cells */
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.item {
+  background-color: tomato;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.item img {
+  width: 300px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
